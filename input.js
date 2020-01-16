@@ -21,6 +21,9 @@ const handleUserInput = ((data) => {
   if (data === "d") {
     connection.write("Move: right")
   }
+  if(data === "h"){
+    connection.write("ahhhhhhhhhhhhhhhhh!!!")
+  }
   
   
 });
